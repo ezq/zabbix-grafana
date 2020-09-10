@@ -96,5 +96,4 @@ services:
       - '10050:10050'
     environment:
       - ZBX_HOSTNAME=Zabbix server
-      - ZBX_SERVER_HOST=172.19.0.1
-    
+      - ZBX_SERVER_HOST=0.0.0.0/0
